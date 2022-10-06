@@ -55,3 +55,8 @@ li {
 .search-form {
     margin-bottom: 20px;
 }
+
+.footer {
+    font-size: 14px;
+    text-align: center;
+}
