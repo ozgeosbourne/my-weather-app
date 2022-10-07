@@ -29,7 +29,7 @@ form.addEventListener("submit", searchCity);
 function swap(event) {
   event.preventDefault();
   let currentTemp = document.querySelector("#temperature");
-  currentTemp.innerHTML = `73°`;
+  currentTemp.innerHTML = `73`;
 }
 let fahrenheit = document.querySelector("#fahrenheit");
 fahrenheit.addEventListener("click", swap);
@@ -37,7 +37,7 @@ fahrenheit.addEventListener("click", swap);
 function reverse(event) {
   event.preventDefault();
   let currentTemp = document.querySelector("#temperature");
-  currentTemp.innerHTML = `23°`;
+  currentTemp.innerHTML = `23`;
 }
 let celcius = document.querySelector("#celcius");
 celcius.addEventListener("click", reverse);
